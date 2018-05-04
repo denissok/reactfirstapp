@@ -11,11 +11,11 @@ const cockpit  = (props) => {
 
     if (props.persons.length<=2)
     {
-        assignedClasses.push(classes.red); //classes  = ['red']
+        assignedClasses.push(classes.red); 
     }
     if (props.persons.length<=1)
     {
-        assignedClasses.push(classes.bold); //classes  = ['bold']
+        assignedClasses.push(classes.bold); 
     }
     
     return (
